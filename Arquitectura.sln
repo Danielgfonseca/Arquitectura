@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arquitectura", "Arquitectura\Arquitectura.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8Leds_sentido_botao", "8Leds_sentido_botao\8Leds_sentido_botao.vcxproj", "{51AB160A-25A1-484E-B594-503E4F7B4116}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Leds_comando_pc", "Leds_comando_pc\Leds_comando_pc.vcxproj", "{8AB47856-7D39-4AF5-A25C-EA722C02067F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SensorUltrasonico", "SensorUltrasonico\SensorUltrasonico.vcxproj", "{1AF8148E-F0CB-4F70-A7FA-55AF81DEC88D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SensorUltrasonicoInterrupts", "SensorUltrasonicoInterrupts\SensorUltrasonicoInterrupts.vcxproj", "{362B7CD0-0013-4212-A19C-5DA2C02BDEFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sonar", "Sonar\Sonar.vcxproj", "{F463234F-F042-451C-9E32-0021DE95AFFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SonarInterrupts", "SonarInterrupts\SonarInterrupts.vcxproj", "{CC5DDC58-2C32-4E31-997D-F4B19B23B49A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP_DHT11", "ESP_DHT11\ESP_DHT11.vcxproj", "{3FC049BC-49E3-4A67-B3BA-A634BB835E89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHT-sensor-library-master", "..\..\..\Arduino\libraries\DHT-sensor-library-master\DHT-sensor-library-master.vcxitems", "{5AF60F5A-4544-4F8F-BB3E-81F551BC2C89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFi", "..\..\..\Arduino\hardware\espressif\esp32\libraries\WiFi\WiFi.vcxitems", "{2B0DA333-A8AE-4415-9FD7-F15CD8C7C562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{51AB160A-25A1-484E-B594-503E4F7B4116}.Debug|x86.ActiveCfg = Debug|Win32
+		{51AB160A-25A1-484E-B594-503E4F7B4116}.Debug|x86.Build.0 = Debug|Win32
+		{51AB160A-25A1-484E-B594-503E4F7B4116}.Release|x86.ActiveCfg = Release|Win32
+		{51AB160A-25A1-484E-B594-503E4F7B4116}.Release|x86.Build.0 = Release|Win32
+		{8AB47856-7D39-4AF5-A25C-EA722C02067F}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AB47856-7D39-4AF5-A25C-EA722C02067F}.Debug|x86.Build.0 = Debug|Win32
+		{8AB47856-7D39-4AF5-A25C-EA722C02067F}.Release|x86.ActiveCfg = Release|Win32
+		{8AB47856-7D39-4AF5-A25C-EA722C02067F}.Release|x86.Build.0 = Release|Win32
+		{1AF8148E-F0CB-4F70-A7FA-55AF81DEC88D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AF8148E-F0CB-4F70-A7FA-55AF81DEC88D}.Debug|x86.Build.0 = Debug|Win32
+		{1AF8148E-F0CB-4F70-A7FA-55AF81DEC88D}.Release|x86.ActiveCfg = Release|Win32
+		{1AF8148E-F0CB-4F70-A7FA-55AF81DEC88D}.Release|x86.Build.0 = Release|Win32
+		{362B7CD0-0013-4212-A19C-5DA2C02BDEFE}.Debug|x86.ActiveCfg = Debug|Win32
+		{362B7CD0-0013-4212-A19C-5DA2C02BDEFE}.Debug|x86.Build.0 = Debug|Win32
+		{362B7CD0-0013-4212-A19C-5DA2C02BDEFE}.Release|x86.ActiveCfg = Release|Win32
+		{362B7CD0-0013-4212-A19C-5DA2C02BDEFE}.Release|x86.Build.0 = Release|Win32
+		{F463234F-F042-451C-9E32-0021DE95AFFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F463234F-F042-451C-9E32-0021DE95AFFF}.Debug|x86.Build.0 = Debug|Win32
+		{F463234F-F042-451C-9E32-0021DE95AFFF}.Release|x86.ActiveCfg = Release|Win32
+		{F463234F-F042-451C-9E32-0021DE95AFFF}.Release|x86.Build.0 = Release|Win32
+		{CC5DDC58-2C32-4E31-997D-F4B19B23B49A}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC5DDC58-2C32-4E31-997D-F4B19B23B49A}.Debug|x86.Build.0 = Debug|Win32
+		{CC5DDC58-2C32-4E31-997D-F4B19B23B49A}.Release|x86.ActiveCfg = Release|Win32
+		{CC5DDC58-2C32-4E31-997D-F4B19B23B49A}.Release|x86.Build.0 = Release|Win32
+		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Debug|x86.Build.0 = Debug|Win32
+		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Release|x86.ActiveCfg = Release|Win32
+		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
