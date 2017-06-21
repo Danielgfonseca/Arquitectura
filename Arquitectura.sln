@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DHT-sensor-library-master",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFi", "..\..\..\Arduino\hardware\espressif\esp32\libraries\WiFi\WiFi.vcxitems", "{2B0DA333-A8AE-4415-9FD7-F15CD8C7C562}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP_DHT11_V2", "ESP_DHT11_V2\ESP_DHT11_V2.vcxproj", "{EE91313D-6DCA-4FD0-BA56-4B5420BE4DF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -61,6 +63,10 @@ Global
 		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Debug|x86.Build.0 = Debug|Win32
 		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Release|x86.ActiveCfg = Release|Win32
 		{3FC049BC-49E3-4A67-B3BA-A634BB835E89}.Release|x86.Build.0 = Release|Win32
+		{EE91313D-6DCA-4FD0-BA56-4B5420BE4DF4}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE91313D-6DCA-4FD0-BA56-4B5420BE4DF4}.Debug|x86.Build.0 = Debug|Win32
+		{EE91313D-6DCA-4FD0-BA56-4B5420BE4DF4}.Release|x86.ActiveCfg = Release|Win32
+		{EE91313D-6DCA-4FD0-BA56-4B5420BE4DF4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

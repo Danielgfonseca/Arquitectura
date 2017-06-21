@@ -25,7 +25,7 @@ WiFiClient client;
 
 void setup() {
 	//Configuração da UART
-	Serial.begin(9600);
+	Serial.begin(115200);
 	//Inicia o WiFi
 	WiFi.begin(ssid, password);
 
